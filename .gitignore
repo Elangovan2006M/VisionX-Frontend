@@ -11,6 +11,31 @@ node_modules
 dist
 dist-ssr
 *.local
+.firebase
+.gradle
+app
+build
+gradle
+.firebaserc
+android.keystore
+app-release-bundle.aab
+app-release-signed.apk
+app-release-signed.apk.idsig
+app-release-unsigned-aligned.apk
+build.gradle
+eslint.config.js
+firebase.json
+gradle.properties
+gradlew
+gradlew.bat
+manifest-checksum.txt
+setting.gradle
+store_icon.png
+twa-manifest.json
+
+# Ignore the .well-known folder inside public
+/public/manifest.webmanifest
+/public/.well-known/**
 
 # Editor directories and files
 .vscode/*
