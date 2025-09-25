@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "app.web.agri_65800.twa",
+    "sha256_cert_fingerprints": [
+      "E8:A3:03:B1:14:95:8E:ED:D3:5C:71:46:A1:5D:D0:E3:60:16:04:8B:AD:38:7E:B9:43:86:5D:3E:28:F9:81:3B"
+    ]
+  }
+}]

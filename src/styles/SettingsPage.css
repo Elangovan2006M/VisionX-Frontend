@@ -1,0 +1,93 @@
+.settings-page {
+  min-height: 100vh;
+  background-color: linear-gradient(140deg, #ffffff 60%, #e8f5e9 100%);
+  color: #333;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align content to left */
+}
+
+.settings-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  color: #333;
+}
+
+.back-btn:hover {
+  color: #007bff; /* optional hover effect */
+}
+
+.settings-title {
+  margin: 0;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+
+.user-email {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  margin-left:10px;
+  color: #555;
+}
+
+.status-message {
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #00b09b, #96c93d);
+  color: white;
+  font-weight: 500;
+}
+
+.settings-options {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+.settings-btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: linear-gradient(135deg, #00b09b, #96c93d); /* Green gradient */
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.settings-btn .icon {
+  font-size: 1.4rem;
+}
+
+.settings-btn:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+.settings-btn.danger {
+  background: linear-gradient(135deg, #ff5f6d, #ffc371); /* Red/orange gradient */
+}
+
+.settings-btn.danger:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}

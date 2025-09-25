@@ -1,0 +1,87 @@
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%); /* soft green-blue gradient */
+  padding: 20px;
+  margin: 0;
+}
+
+.auth-form {
+  background: #fff;
+  padding: 30px 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #009688; /* green heading */
+}
+
+.auth-form input {
+  margin: 8px 0;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.auth-form input:focus {
+  border-color: #00796b; /* darker green on focus */
+  box-shadow: 0 0 5px rgba(0, 121, 107, 0.5);
+  outline: none;
+}
+
+.auth-form button {
+  margin-top: 15px;
+  padding: 12px;
+  background: #009688; /* main green button */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.auth-form button:hover {
+  background: #00796b; /* darker green on hover */
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+}
+
+.success {
+  color: #00796b; /* green success message */
+  font-size: 14px;
+  text-align: center;
+}
+
+.switch-link {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  font-size: 14px;
+}
+
+.switch-link a {
+  color: #009688; /* green link */
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.switch-link a:hover {
+  text-decoration: underline;
+}

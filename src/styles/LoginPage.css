@@ -1,0 +1,78 @@
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #a8e6cf 0%, #dcedc1 100%); /* soft green gradient */
+  padding: 20px;
+}
+
+.auth-form {
+  background: #fff;
+  padding: 30px 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #43a047; /* green heading */
+}
+
+.auth-form input {
+  margin: 8px 0;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+.auth-form button {
+  margin-top: 15px;
+  padding: 12px;
+  background: #43a047; /* green button */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.auth-form button:hover {
+  background: #2e7d32; /* darker green on hover */
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+}
+
+.success {
+  color: #2e7d32; /* green success message */
+  font-size: 14px;
+  text-align: center;
+}
+
+.switch-link {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  font-size: 14px;
+}
+
+.switch-link a {
+  color: #43a047; /* green link */
+  font-weight: bold;
+  text-decoration: none;
+}
+.switch-link a:hover {
+  text-decoration: underline;
+}
