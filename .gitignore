@@ -29,7 +29,7 @@ gradle.properties
 gradlew
 gradlew.bat
 manifest-checksum.txt
-setting.gradle
+settings.gradle
 store_icon.png
 twa-manifest.json
 
