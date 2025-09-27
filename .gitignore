@@ -32,6 +32,7 @@ manifest-checksum.txt
 settings.gradle
 store_icon.png
 twa-manifest.json
+vite.config.js
 
 # Ignore the .well-known folder inside public
 /public/manifest.webmanifest

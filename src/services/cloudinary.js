@@ -10,7 +10,7 @@ export const uploadImage = async (file) => {
     formData.append("upload_preset", UPLOAD_PRESET);
 
     const response = await axios.post(CLOUDINARY_URL, formData);
-    return response.data.secure_url; // returns the image URL
+    return response.data.secure_url;
   } catch (err) {
     console.error("Cloudinary upload failed", err);
     throw err;

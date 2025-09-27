@@ -1,7 +1,6 @@
-// src/services/api.js
 import axios from "axios";
 
-const API_BASE_URL = "https://visionx-backend-2k2n.onrender.com";
+const API_BASE_URL = "http://127.0.0.1:8000";
 
 export const askLLM = async ({ userId, query, imageFile = null }) => {
   try {
@@ -17,10 +16,10 @@ export const askLLM = async ({ userId, query, imageFile = null }) => {
         "Content-Type": "multipart/form-data",
       },
       params: {
-        userId, // optional query param if backend uses it for history
+        userId,
       },
     });
-
+    console.log(response.data);
     return response.data;
   } catch (error) {
     console.error("Error while calling LLM API:", error);
